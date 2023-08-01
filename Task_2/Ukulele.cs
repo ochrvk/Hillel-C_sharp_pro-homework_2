@@ -25,7 +25,7 @@
                 "have been delighting the people with nightly street concerts.\"";
         }
 
-        public void Sound()
+        public new void Sound()
         {
             Console.WriteLine("Ukulele sounds");
         }

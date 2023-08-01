@@ -27,7 +27,7 @@
         }
 
 
-        public void Sound()
+        public new void  Sound()
         {
             Console.WriteLine("Violin sounds");
         }

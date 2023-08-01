@@ -30,7 +30,7 @@
                 "the early fifteenth century.";
         }
 
-        public void Sound()
+        public new void Sound()
         {
             Console.WriteLine("Trombone sounds");
         }

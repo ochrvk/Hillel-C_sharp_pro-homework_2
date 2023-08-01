@@ -24,7 +24,7 @@
         }
 
 
-        public void Sound()
+        public new void Sound()
         {
             Console.WriteLine("Cello sounds");
         }
