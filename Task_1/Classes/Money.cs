@@ -1,4 +1,4 @@
-﻿namespace Task_1
+﻿namespace Task_1.Classes
 {
     public class Money
     {

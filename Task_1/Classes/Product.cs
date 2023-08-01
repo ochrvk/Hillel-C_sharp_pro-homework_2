@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Task_1
+namespace Task_1.Classes
 {
     public class Product : Money
     {
@@ -10,7 +10,7 @@ namespace Task_1
         {
             int integerPart = (int)number;
             int cents = (int)((number - integerPart) * 100);
-            if (integerPart < IntegerPart || (integerPart == IntegerPart && cents <= Cents))
+            if (integerPart < IntegerPart || integerPart == IntegerPart && cents <= Cents)
             {
                 IntegerPart -= integerPart;
                 Cents -= cents;

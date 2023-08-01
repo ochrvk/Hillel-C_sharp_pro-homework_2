@@ -16,7 +16,7 @@
 Додати iнкапсуляцiю до полiв та методiв якщо треба.
 */
 
-using Task_1;
+using Task_1.Classes;
 
 Product product = new Product();
 
